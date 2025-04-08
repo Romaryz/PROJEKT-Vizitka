@@ -14,6 +14,83 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    background-color:#b2bec3;
+    color:black;
+    font-family: "Nunito", sans-serif;
+}
+.vizitka {
+    background-color: white;
+    text-align: center;
+    margin:150px auto;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px grey;
+}
 h1{
-    color:red;
+    color:#d63031;
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding:30px;
+    /*padding-top: 30px;
+    padding-left:30px;*/
+    text-align: left;
+    margin:0;
+}
+.foto {
+    position:absolute;
+    display:block;
+    right:610px;
+    top:70px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.clanok {
+    font-size: 18px;
+    padding-right:30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+.siete {
+    padding: 0 30px 30px 30px;
+    /*padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;*/
+}
+.twitter {
+    display:block;
+    background-color:#1da1f2;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    border-radius:5px;
+}
+.twiter:active {
+    background-color:#0b7bc1;
+}
+
+.facebook {
+    display: block;
+    text-transform: uppercase;
+    background-color:  #3b5998;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    border-radius:5px;
+    margin-top: 5px;
+}
+.facebook:active {
+    background-color: #0b7bc1;
+}
+
+p {
+    margin:0;
+    padding-bottom: 30px;
 }
