@@ -26,6 +26,7 @@ body {
     max-width: 550px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px grey;
+    position:relative;
 }
 h1{
     color:#d63031;
@@ -39,10 +40,13 @@ h1{
     margin:0;
 }
 .foto {
+    /*position:absolute;*/
     position:absolute;
     display:block;
-    right:610px;
-    top:70px;
+    /*right:610px;*/
+    /*top:70px;*/
+    right:-75px;
+    top:-75px;
     width: 150px;
     border-radius: 50%;
     border: 3px solid white;
